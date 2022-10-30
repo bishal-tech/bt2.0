@@ -1,0 +1,72 @@
+@media (max-width: 575.98px) {
+    .banner-bg{
+        background-size: 155%;
+    }
+    .service-sec .bg-year {
+        font-size: 130px;
+    }
+
+    .service-box,
+    .service-box-1,
+    .service-box-2,
+    .service-box-3 {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 767.98px) {}
+
+
+@media (max-width: 991.98px) {
+    h1 {
+        font-size: 49px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p,
+    li,
+    a,
+    button,
+    input {
+        font-size: 15px;
+    }
+
+
+    .service-box-1,
+    .service-box-2,
+    .service-box-3 {
+        margin-top: 0;
+    }
+
+    .bg-blue {
+        padding: 10px;
+    }
+
+    .bg-blue h2 {
+        font-size: 13px;
+    }
+
+    .bg-blue h4 {
+        font-size: 11px;
+        margin-top: -20px;
+    }
+
+    .team-slide p {
+        font-size: 11px;
+    }
+}
+
+
+@media (max-width: 1199.98px) {}
+
+
+@media (max-width: 1399.98px) {}
