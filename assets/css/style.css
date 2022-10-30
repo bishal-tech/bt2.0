@@ -203,7 +203,7 @@ button {
 
 /* -------------------------------- Banner section style start here  */
 .banner-bg {
-    background-image: url(/assets/img/banner-bg.png);
+    background-image: url(../img/banner-bg.png);
     background-position: top;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -308,7 +308,7 @@ button {
 
 /* -------------------------------- Our Project section style start here  */
 .project-sec {
-    background-image: url(/assets/img/project-bg.png);
+    background-image: url(../img/project-bg.png);
     background-position: top;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -331,12 +331,6 @@ button {
 
 
 /* -------------------------------- Review section style start here  */
-.review-sec {
-    background-image: url(/assets/img/review-bg.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
-}
 
 .review-slider {
     padding: 20px;
@@ -389,7 +383,7 @@ button {
 
 /* -------------------------------- Team section style start here  */
 .team-sec {
-    background-image: url(/assets/img/team-bg.png);
+    background-image: url(../img/team-bg.png);
     background-position: top;
     background-size: 100%;
     background-repeat: no-repeat;
