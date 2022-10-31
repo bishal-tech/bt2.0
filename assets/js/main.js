@@ -18,7 +18,7 @@ $(document).ready(function () {
 
   ///-----------------banner slider is here
 
-  $(".team").slick({
+  $(".team-slider").slick({
     infinite: true,
     autoplay: true,
     autoplaySpeed: 2500,
@@ -112,67 +112,9 @@ $(document).ready(function () {
     ],
   });
 
-  $(".teacher-slider").slick({
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 2500,
-    arrows: false,
-    dots: false,
-    speed: 300,
-    slidesToScroll: 1,
-    pauseOnHover: true,
-    centerMode: false,
-    centerPadding: "0px",
-    slidesToShow: 1,
-    prevArrow: $(".prev"),
-    nextArrow: $(".next"),
-    responsive: [],
-  });
+  
 
-  $(".video-slider").slick({
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 2500,
-    arrows: false,
-    dots: true,
-    speed: 300,
-    slidesToScroll: 1,
-    pauseOnHover: true,
-    centerMode: false,
-    centerPadding: "0px",
-    slidesToShow: 3,
-    responsive: [
-      {
-        breakpoint: 1100,
-        settings: {
-          arrows: true,
-          centerMode: false,
-          centerPadding: "0px",
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 908,
-        settings: {
-          arrows: true,
-          centerMode: false,
-          centerPadding: "0px",
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 650,
-        settings: {
-          arrows: false,
-          centerMode: false,
-          centerPadding: "0px",
-          slidesToShow: 1,
-        },
-      },
-    ],
-  });
-
-  $(".review-slider").slick({
+  $(".review-sli").slick({
     infinite: true,
     autoplay: true,
     autoplaySpeed: 2500,

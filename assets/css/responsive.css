@@ -1,6 +1,6 @@
 @media (max-width: 575.98px) {
     .banner-bg{
-        background-size: 155%;
+        background-size: 188%;
     }
     .service-sec .bg-year {
         font-size: 130px;
@@ -12,6 +12,9 @@
     .service-box-3 {
         margin-top: 0;
         margin-bottom: 10px;
+    }
+    .contact-gp img{
+        display: none;
     }
 }
 

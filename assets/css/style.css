@@ -22,8 +22,6 @@
 :root {
     --pink: #ED0381;
     --yellow: #FFC815;
-    /* --yellow-gr: rgb(255,200,21) ; */
-    --yellow-gr: linear-gradient(356deg, rgba(255, 200, 21, 1) 40%, rgba(250, 250, 117, 1) 92%);
     --blue: #3628D6;
     --dark-grey: #210049;
     --light-grey: #606060;
@@ -60,10 +58,6 @@ h2 {
     font-size: 40px;
     line-height: 48px;
     color: var(--white);
-    /* text-decoration-line: underline;
-    text-underline-position: under;
-    text-decoration-color: var(--green);
-    text-decoration-style: solid; */
 }
 
 h3 {
@@ -129,8 +123,6 @@ textarea:focus {
     font-size: 18px;
     background: rgb(252, 0, 122);
     background: linear-gradient(90deg, rgba(252, 0, 122, 1) 0%, rgba(42, 16, 233, 1) 100%);
-    /* background-color: var(--yellow); */
-    /* border: 2px solid var(--white); */
     color: var(--white);
     transition: all 0.4s linear;
 
@@ -140,14 +132,24 @@ textarea:focus {
     font-size: 18px;
     background: rgb(42, 16, 233);
     background: linear-gradient(90deg, rgba(42, 16, 233, 1) 0%, rgba(252, 0, 122, 1) 100%);
-    /* background-color: var(--light-grey); */
-    border: 2px solid var(--yellow);
+    /* background-color: var(--white); */
+    /* border: 2px solid var(--yellow); */
     color: var(--white);
+    padding: 10px 32px;
     transition: all 0.4s linear;
 }
 
 button {
     border: none;
+}
+
+.hr {
+    background: linear-gradient(90deg, rgba(252, 0, 122, 1) 0%, rgba(42, 16, 233, 1) 100%);
+    height: 5px !important;
+    width: 134px;
+    opacity: 80;
+    border-radius: 50px;
+    margin-top: -5px;
 }
 
 /* -------------------------------- Header style start here  */
@@ -216,7 +218,8 @@ button {
     color: var(--white);
     text-align: center;
 }
-.banner-wraper img{
+
+.banner-wraper img {
     width: 440px;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -224,8 +227,8 @@ button {
 
 .banner-wraper p {
     max-width: 800px;
-   margin: auto;
-   margin-bottom: 30px;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
 /* -------------------------------- Service section style start here  */
@@ -253,6 +256,22 @@ button {
     text-align: center;
     /* max-width: 500px; */
     margin: 0px 5px;
+    transition: all 0.5s linear;
+}
+
+.service-box:hover {
+    background-color: var(--blue);
+}
+
+.service-box:hover img {
+    border: 10px solid var(--white);
+
+}
+
+.service-box:hover h3,
+.service-box:hover p {
+    color: var(--white);
+    transition: all 0.5s linear;
 }
 
 .service-box-1 {
@@ -340,45 +359,25 @@ button {
 }
 
 .review-slide {
-    max-width: 350px;
-    margin: 10px;
-}
-
-.review-slide p {
-    color: var(--light-grey);
-}
-
-.review-text {
+    max-width: 365px;
+    background-color: var(--yellow);
     padding: 20px;
-    background-color: var(--white);
-    position: relative;
-}
-
-.caruv {
-    clip-path: polygon(100% 0, 74% 7%, 54% 14%, 37% 24%, 24% 36%, 15% 55%, 8% 75%, 0 100%, 0 72%, 0 0);
-    height: 30px;
-    width: 30px;
-    background-color: var(--white);
-    position: absolute;
-    bottom: -30px;
-    left: 0px;
+    border-radius: 4px;
 }
 
 .review-img {
-    border-top-left-radius: 54px;
-    margin-top: 10px;
-    /* background-color: var(--dark-grey); */
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    /* background-color: var(--yellow); */
 }
 
-.review-slider img {
+.review-img img {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
-    margin-top: 5px;
-    margin-left: 5px;
-
+    border-radius: 4px;
+    margin-top: -65px;
+    border: 5px solid var(--yellow);
 }
 
 /* -------------------------------- Team section style start here  */
@@ -387,6 +386,10 @@ button {
     background-position: top;
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+.team-sec .hr {
+    margin: auto;
 }
 
 .team-slider {
@@ -466,6 +469,17 @@ button {
     bottom: 0;
     left: 0;
     /* height: 100%; */
+    z-index: -2;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
     z-index: -1;
 }
 
@@ -474,6 +488,10 @@ button {
     padding: 20px;
     border-radius: 10px;
     margin: 20px 0;
+}
+
+.contat-form-sec h2 {
+    color: var(--pink);
 }
 
 .contat-form-sec p {
@@ -485,27 +503,28 @@ button {
     box-shadow: 0 0 0 0.25rem var(--yellow);
 }
 
-.cta-box {
+.location-nav {
     display: flex;
-    /* justify-content: end; */
+    justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    height: 100%;
+    width: 100%;
+    padding: 20px; text-align: center;
 }
 
-.cta-box ion-icon,
-.cta-box span {
+.location-nav a {
+    background-color: var(--pink);
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     color: var(--white);
 }
 
-.cta-box ion-icon {
-    font-size: 45px;
-    margin-right: 20px;
+.location-nav ion-icon {
+    font-size: 50px;
+    color: var(--white);
 }
-
-.cta-box span {
-    font-size: 20px;
-}
-
 
 /* -------------------------------- Footer section style start here  */
 .logo img {
