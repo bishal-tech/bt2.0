@@ -114,7 +114,7 @@ $(document).ready(function () {
 
   
 
-  $(".review-sli").slick({
+  $(".review-slider").slick({
     infinite: true,
     autoplay: true,
     autoplaySpeed: 2500,

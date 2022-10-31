@@ -232,6 +232,12 @@ button {
 }
 
 /* -------------------------------- Service section style start here  */
+.service-bg {
+    background-image: url(../img/service-bg.png);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 .service-sec {
     position: relative;
@@ -327,7 +333,7 @@ button {
 
 /* -------------------------------- Our Project section style start here  */
 .project-sec {
-    background-image: url(../img/project-bg.png);
+    background-image: url(../img/team-bg.png);
     background-position: top;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -359,7 +365,8 @@ button {
 }
 
 .review-slide {
-    max-width: 365px;
+    margin: 41px 10px 10px;
+    /* max-width: 365px; */
     background-color: var(--yellow);
     padding: 20px;
     border-radius: 4px;
@@ -509,11 +516,11 @@ button {
     align-items: center;
     height: 100%;
     width: 100%;
-    padding: 20px; text-align: center;
+    padding: 20px;
+    text-align: center;
 }
 
 .location-nav a {
-    background-color: var(--pink);
     padding: 20px;
     width: 100px;
     height: 100px;
