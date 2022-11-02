@@ -73,6 +73,11 @@
     .team-slide p {
         font-size: 11px;
     }
+
+    /* service page design is here  */
+    .work-arrow-left img,.work-arrow-right img{
+        width: 45px;
+    }
 }
 
 

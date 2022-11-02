@@ -635,6 +635,10 @@ footer li {
 
 
 /* inner-page css is here  */
+.work-content h3{
+    opacity: 0.5;
+    font-weight: 800;
+}
 
 .work-content, .web-heading{
     position: relative;
