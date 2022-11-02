@@ -107,14 +107,14 @@ textarea:focus {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--yellow);
+    background-color: var(--pink);
     border-radius: 10px;
     border: 2px solid transparent;
     background-clip: content-box;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: var(--dark-grey);
+    background-color: var(--blue);
 }
 
 
