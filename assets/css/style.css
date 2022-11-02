@@ -21,7 +21,7 @@
 
 :root {
     --pink: #ED0381;
-    --purple:#9711e3 ;
+    --purple: #9711e3;
     --yellow: #FFC815;
     --blue: #3628D6;
     --dark-grey: #210049;
@@ -631,4 +631,21 @@ footer li {
     height: 170px;
     /* border-radius: 10px; */
     border: 5px solid var(--light-grey);
+}
+
+
+/* inner-page css is here  */
+
+.work-content, .web-heading{
+    position: relative;
+}
+.work-arrow-right {
+    position: absolute;
+    /* bottom: 0; */
+    right: 0;
+}
+.work-arrow-left {
+    position: absolute;
+    /* bottom: 0; */
+    left: 0;
 }
