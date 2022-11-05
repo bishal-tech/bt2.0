@@ -214,10 +214,12 @@ button {
     color: var(--white);
     text-align: center;
 }
-.banner-wraper h2{
+
+.banner-wraper h2 {
     text-decoration: overline;
     margin-top: -8px;
 }
+
 .banner-wraper img {
     width: 525px;
 }
@@ -344,16 +346,27 @@ button {
     background-repeat: no-repeat;
 }
 
-.project-box {
-    width: 210px;
-    height: 350px;
+.project-slider{
+    /* position: relative; */
+}
+.project-slider .slider-arrow{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+
+    background-color: red;
+}
+
+.project-slide {
+    /* width: 210px; */
+    height: 500px;
     box-shadow: var(--shadow);
     margin: 10px;
     border-radius: 20px;
 
 }
 
-.project-box img {
+.project-slide img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -573,6 +586,17 @@ footer li {
     margin-bottom: 15px;
 }
 
+.footer-3 li {
+    list-style-type: none;
+    margin-left: -30px;
+}
+
+.footer-3 li ion-icon {
+    font-size: 25px;
+    margin-bottom: -5px;
+    margin-right: 5px;
+}
+
 #mylocation {
     width: 100%;
     height: 215px;
@@ -631,19 +655,22 @@ footer li {
 
 
 /* inner-page css is here  */
-.work-content h3{
+.work-content h3 {
     opacity: 0.5;
     font-weight: 800;
 }
 
-.work-content, .web-heading{
+.work-content,
+.web-heading {
     position: relative;
 }
+
 .work-arrow-right {
     position: absolute;
     /* bottom: 0; */
     right: 0;
 }
+
 .work-arrow-left {
     position: absolute;
     /* bottom: 0; */
