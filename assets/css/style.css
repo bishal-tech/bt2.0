@@ -201,7 +201,7 @@ button {
 
 /* -------------------------------- Banner section style start here  */
 .banner-bg {
-    background-image: url(../img/banner-bg.png);
+    background-image: url(../img/banner/banner-bg.png);
     background-position: top;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -264,13 +264,30 @@ button {
     transition: all 0.5s linear;
 }
 
+.service-icon {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid var(--pink);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-box img {
+    width: 57px;
+}
+
 .service-box:hover {
     background-color: var(--blue);
 }
 
-.service-box:hover img {
-    border: 10px solid var(--white);
-
+.service-box:hover .service-icon {
+    /* border: 10px solid var(--white); */
+color: var(--white);
+background-color: var(--white);
 }
 
 .service-box:hover h3,
@@ -295,13 +312,6 @@ button {
 
 }
 
-.service-box img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 10px solid var(--pink);
-    margin-bottom: 15px;
-}
 
 .service-box h3 {
     color: #000;
@@ -346,10 +356,11 @@ button {
     background-repeat: no-repeat;
 }
 
-.project-slider{
+.project-slider {
     /* position: relative; */
 }
-.project-slider .slider-arrow{
+
+.project-slider .slider-arrow {
     position: absolute;
     top: 40px;
     left: 0px;
@@ -676,3 +687,15 @@ footer li {
     /* bottom: 0; */
     left: 0;
 }
+
+.work-img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.work-img img{
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+/* web dev page style here  */
