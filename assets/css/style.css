@@ -130,14 +130,23 @@ textarea:focus {
 }
 
 .cta-btn-1:hover {
-    font-size: 18px;
+    color: var(--white);
     background: rgb(42, 16, 233);
     background: linear-gradient(90deg, rgba(42, 16, 233, 1) 0%, rgba(252, 0, 122, 1) 100%);
-    /* background-color: var(--white); */
-    /* border: 2px solid var(--yellow); */
-    color: var(--white);
-    padding: 10px 32px;
     transition: all 0.4s linear;
+}
+
+.cta-btn-1 ion-icon {
+    font-size: 20px;
+    transition: all 0.4s linear;
+    margin-bottom: -4px;
+}
+
+.cta-btn-1:hover ion-icon {
+
+    transform: translateX(5px);
+    transition: all 0.4s linear;
+    
 }
 
 button {
@@ -286,8 +295,8 @@ button {
 
 .service-box:hover .service-icon {
     /* border: 10px solid var(--white); */
-color: var(--white);
-background-color: var(--white);
+    color: var(--white);
+    background-color: var(--white);
 }
 
 .service-box:hover h3,
@@ -689,13 +698,13 @@ footer li {
 }
 
 .work-img {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.work-img img{
-    max-width: 400px;
+
+.work-img img {
+    /* max-width: 400px; */
     border-radius: 10px;
     box-shadow: var(--shadow);
 }
-/* web dev page style here  */
