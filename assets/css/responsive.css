@@ -50,7 +50,10 @@
         font-size: 15px;
     }
 
-
+    .navbar-nav{
+        text-align: center;
+    }
+.main-btn{ margin-top: 10px;}
     .service-box-1,
     .service-box-2,
     .service-box-3 {

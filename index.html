@@ -41,51 +41,55 @@
     <header id="header">
         <nav class="navbar navbar-expand-lg hearder_wrapper ">
             <div class="container">
-                <!-- <a class="navbar-brand logo" href="#">
-                    <img class="img-fluid" src="assets/img/logo1.png" alt="">
-                </a> -->
+                <a class="navbar-brand logo" href="#">
+                    <img class="img-fluid" src="assets/img/logo.png" alt="">
+                </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <ion-icon name="reorder-three-outline"></ion-icon>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 ">
                         <li class="nav-item">
-                            <a class="nav-link scrollto active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About Us </a>
                         </li>
 
-
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Web Development</a>
-                                <a class="dropdown-item" href="#">WordPress Development</a>
-                                <a class="dropdown-item" href="#">Graphic Design</a>
-                                <a class="dropdown-item" href="#">Digital Marketing</a>
-                                <a class="dropdown-item" href="#">Our Products</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="service-web-dev.html">Web Development</a></li>
+                                <li><a class="dropdown-item" href="service-wordpress.html"> WordPress Development</a>
+                                </li>
+                                <li><a class="dropdown-item" href="service-graphic-design.html"> Graphic Design</a></li>
+                                <li><a class="dropdown-item" href="service-digital-mr.html"> Digital Marketing</a></li>
+                                <li><a class="dropdown-item" href="our-products.html"> Our Products</a></li>
 
-                            </div>
+                            </ul>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link" href="#students">Students </a>
+                            <a class="nav-link" href="#">Portfolio </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#cotact">Contact us </a>
                         </li>
+                        <li class="nav-item">
+                            <div class="main-btn">
+                                <a href="mailto: info@bishaltech.com" class=" cta-btn-1">Hire Now</a>
+                            </div>
+                        </li>
 
                     </ul>
 
-                    <!-- <div class="main-btn">
-                        <a href="#" class=" cta-btn-1">Log In</a>
-                    </div> -->
+
                 </div>
             </div>
         </nav>
@@ -102,8 +106,8 @@
                 rapidly 10 times faster, We have top calss Designer & Developers here.
                 <br> We also have 150+ clients, Make your ideas comes true.
             </p>
-            <a class="cta-btn-1" href="#">Know More <ion-icon name="arrow-forward-outline"></ion-icon></a>
-            <br>
+            <!-- <a class="cta-btn-1" href="#">Know More <ion-icon name="arrow-forward-outline"></ion-icon></a>
+            <br> -->
 
             <img class="img-fluid" src="assets/img/banner/banner-gr.png" alt="">
 
@@ -166,10 +170,18 @@
                         </div>
 
                     </div>
-                    <div class="text-end">
-                        <h2>Our <span>Services</span></h2>
-                        <!-- <p>Know more about our services</p> -->
-                        <a class="cta-btn-1" href="#">Know More <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    <div class="row">
+                        <div class="col-6"></div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="text-end ">
+                                <h2>Our <span>Services</span></h2>
+                                <p>"To earn the <span>respect</span> (and eventually <span>love</span> ) of your
+                                    customers, you
+                                    first have to <span>respect</span> those <span>customers</span>."</p>
+                                <!-- <p>Know more about our services</p> -->
+                                <!-- <a class="cta-btn-1" href="#">Know More <ion-icon name="arrow-forward-outline"></ion-icon></a> -->
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -181,7 +193,7 @@
 
     <!-- ----------------- About Section Start -----------------------  -->
 
-    <section class="gradiant-bg py-5">
+    <section class="gradiant-bg py-5" id="about">
         <img class="img-fluid gradiant-gr" src="assets/img/about/about-gr.png" alt="">
         <div class="container">
             <div class="row " style="overflow-x: hidden; overflow-y: hidden;">
@@ -198,7 +210,8 @@
 
                             <p>Trust us to design solutions that combine a solid technical background with a
                                 user-friendly and contemporary interface.</p>
-                            <a class="cta-btn-1" href="#">Know more <ion-icon name="arrow-forward-outline"></ion-icon>
+                            <a class="cta-btn-1" href="aboutus.html">About Us <ion-icon name="arrow-forward-outline">
+                                </ion-icon>
                             </a>
                         </div>
                     </div>
@@ -231,7 +244,8 @@
                         us.</p>
                     <p>Our <span>Technologies</span>: HTML5, CSS3, JS, React, PHP, Laravel, WoprdPress and many more.
                     </p>
-                    <a class="cta-btn-1" href="#">All Projects <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    <a class="cta-btn-1" href="portfolio.html">All Projects <ion-icon name="arrow-forward-outline">
+                        </ion-icon></a>
                 </div>
                 <div class="col-md-8 col-sm-12 ">
                     <div class="d-flex project-slider mt-5">
@@ -280,7 +294,8 @@
             <div class="row" data-aos="fade-up">
                 <div class="col-md-3 col-sm-12">
                     <h2 class="mb-5">What our happy <span> clients</span> says...</h2>
-                    <a class="cta-btn-1" href="#">Put a review <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    <a class="cta-btn-1" href="https://rb.gy/v3mtm0" target="_blank">Put a review <ion-icon
+                            name="arrow-forward-outline"></ion-icon></a>
                 </div>
                 <div class="col-md-9 col-sm-12">
                     <div class="review-slider">
@@ -445,7 +460,8 @@
                                 <label for="msg">Message </label>
                                 <textarea class="form-control" name="messge" id="msg" cols="" rows="3"></textarea>
                             </div>
-                            <button class="cta-btn-1 " type="submit">Submit <ion-icon name="arrow-forward-outline"></ion-icon></button>
+                            <button class="cta-btn-1 " type="submit">Submit <ion-icon name="arrow-forward-outline">
+                                </ion-icon></button>
                         </form>
                     </div>
                 </div>
@@ -477,18 +493,13 @@
             <div class="row" data-aos="fade-up">
                 <div class="col-md-4 col-sm-12 footer-1">
 
-                    <a class="logo mb-4" href="#"><img class="img-fluid" src="assets/img/logo1.png" alt=""></a>
-
-                    <p>West Bengal's most advance computer training cernter. Grow your future with us. <br> <span> GET
-                            YOUR COURSE, GET YOUR JOB </span></p>
-
+                    <a class="logo mb-4" href="#"><img class="img-fluid" src="assets/img/logo.png" alt=""></a> <br>
+                    <small>Dakshin Dinajpur's Most Trusted Software Making Company</small>
                     <hr>
-                    <div class="social-link">
-                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                    </div>
+                    <p><span>Bishal Tech</span> is a specialized development company. Let's build your solution today!
+                        </span></p>
+
+
                 </div>
 
                 <div class="col-md-4 col-sm-12 footer-1">
@@ -500,6 +511,7 @@
                         <li> <a href="service-wordpress.html"> WordPress Development </a></li>
                         <li> <a href="service-graphic-design.html"> Graphic Design</a></li>
                         <li> <a href="service-digital-mr.html"> Digital Marketing </a></li>
+                        <li> <a href="#"> Terms & Polices </a></li>
                     </ul>
                 </div>
 
@@ -509,22 +521,30 @@
 
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="https://rb.gy/v3mtm0" target="_blank">
                                 <ion-icon name="location-outline"></ion-icon> Gangarampur, Dakshin Dinajpur, West
                                 Bengal, India, Pin-733124
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="mailto: info@bishaltech.com">
                                 <ion-icon name="mail-outline"></ion-icon> info@bishaltech.com
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="tel: 8250968195">
                                 <ion-icon name="call-outline"></ion-icon> +91 82 50 968195
                             </a>
                         </li>
                     </ul>
+
+
+                    <div class="social-link">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
                 </div>
             </div>
             <hr>
@@ -536,21 +556,26 @@
 
 
     <!-- import js here  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.2.1/bootstrap-hover-dropdown.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script> -->
+
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+
     <!-- import cutom js -->
     <script src="assets/js/main.js"></script>
     <script>
+        AOS.init();
+
         var loader = document.getElementById('loader');
         function myloader() {
             loader.style.display = 'none';

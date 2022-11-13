@@ -146,7 +146,7 @@ textarea:focus {
 
     transform: translateX(5px);
     transition: all 0.4s linear;
-    
+
 }
 
 button {
@@ -181,8 +181,21 @@ button {
     color: var(--white);
 }
 
+.nav-link:focus,
 .nav-link:hover {
     color: var(--yellow);
+}
+
+.dropdown-item {
+    color: var(--dark-grey) !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: var(--light-grey);
+    color: var(--white) !important;
+    /* border-radius: 30px;
+    margin: 3px 0px; */
 }
 
 .active {
@@ -365,9 +378,6 @@ button {
     background-repeat: no-repeat;
 }
 
-.project-slider {
-    /* position: relative; */
-}
 
 .project-slider .slider-arrow {
     position: absolute;
@@ -512,6 +522,14 @@ button {
     height: 100%;
     z-index: -1;
 }
+.location-nav  a{
+    transition: all 0.4s ease ;
+}
+.location-nav  a:hover   ion-icon{
+  transform: translateY(-5px);
+  transition: all 0.4s ease ;
+
+}
 
 .contact-gp {
     position: absolute;
@@ -540,7 +558,7 @@ button {
 }
 
 .contat-form-sec h2 {
-    color: var(--pink);
+    color: var(--dark-grey);
 }
 
 .contat-form-sec p {
@@ -582,7 +600,7 @@ button {
 
 /* -------------------------------- Footer section style start here  */
 .logo img {
-    width: 155px;
+    width: 50px;
 }
 
 footer {
@@ -649,7 +667,7 @@ footer li {
     width: 40px;
     border-radius: 50%;
     border: 2px solid var(--yellow);
-    background-color: var(--yellow);
+    /* background-color: var(--yellow); */
     color: var(--white);
     display: flex;
     justify-content: center;
@@ -659,12 +677,17 @@ footer li {
 .social-link a i {
     font-size: 20px;
     color: var(--white);
+    transition: all 0.5s ease;
 }
 
 .social-link a:hover {
-    /* color: var(--yellow); */
     background-color: var(--dark-grey);
     border: 2px solid var(--white);
+}
+
+.social-link a:hover i {
+    transition: all 0.5s ease;
+    transform: rotate(-20deg);
 }
 
 .map {
