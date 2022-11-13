@@ -1,8 +1,9 @@
 @media (max-width: 575.98px) {
-    .banner-bg{
-    background-image: url(../img/banner/mobile-banner-bg.png);
+    .banner-bg {
+        background-image: url(../img/banner/mobile-banner-bg.png);
         background-size: 100%;
     }
+
     .service-sec .bg-year {
         font-size: 130px;
     }
@@ -14,13 +15,16 @@
         margin-top: 0;
         margin-bottom: 10px;
     }
-    .gradiant-gr{
+
+    .gradiant-gr {
         display: none;
     }
-    .contact-gp img{
+
+    .contact-gp img {
         display: none;
     }
-    .review-slider{
+
+    .review-slider {
         margin-top: 35px;
     }
 }
@@ -50,10 +54,10 @@
         font-size: 15px;
     }
 
-    .navbar-nav{
+    .navbar-nav {
         text-align: center;
     }
-.main-btn{ margin-top: 10px;}
+
     .service-box-1,
     .service-box-2,
     .service-box-3 {
@@ -78,7 +82,8 @@
     }
 
     /* service page design is here  */
-    .work-arrow-left img,.work-arrow-right img{
+    .work-arrow-left img,
+    .work-arrow-right img {
         width: 45px;
     }
 }

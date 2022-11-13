@@ -219,6 +219,7 @@ button {
 
 .main-btn {
     margin-left: 10px;
+    margin-top: 7px;
 }
 
 /* -------------------------------- Banner section style start here  */
@@ -522,12 +523,14 @@ button {
     height: 100%;
     z-index: -1;
 }
-.location-nav  a{
-    transition: all 0.4s ease ;
+
+.location-nav a {
+    transition: all 0.4s ease;
 }
-.location-nav  a:hover   ion-icon{
-  transform: translateY(-5px);
-  transition: all 0.4s ease ;
+
+.location-nav a:hover ion-icon {
+    transform: translateY(-5px);
+    transition: all 0.4s ease;
 
 }
 
